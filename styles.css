@@ -1,0 +1,80 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  margin: 0;
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-color: #1E680F;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #26A80C;
+  list-style: none;
+  padding: 10px;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+section {
+  padding: 40px;
+}
+
+.hero {
+  background-color: #26A80C;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Acerca con Times New Roman */
+.acerca {
+  font-family: 'Times New Roman', serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+}
+
+button {
+  background-color: #1E680F;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
