@@ -78,3 +78,6 @@ button {
   cursor: pointer;
 }
 
+.instagram-logo {
+  filter: invert(1);
+}
